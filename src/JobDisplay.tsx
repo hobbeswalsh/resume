@@ -22,7 +22,7 @@ const JobDisplay = (props: { job: Job }) => {
         </div>
       </div>
       <div className="max-w-[80%] my-1 text-sm">{job.description}</div>
-      <div className="text-sm decoration-gray-500 my-1">Major accomplishments</div>
+      <div className="text-sm decoration-gray-500 underline my-1">Major accomplishments</div>
       <ul className="ml-[20px] text-sm list-disc">
         {job.accomplishments.map((win) => (
           <div className="flex items-center" key={win}>
