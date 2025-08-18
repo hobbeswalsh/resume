@@ -66,7 +66,11 @@ const amazon: Job = {
   description: "Managed all production DNS and Load Balancing infrastructure",
   startDate: new Date("2011-01-01T00:00:00-0800"),
   endDate: new Date("2014-08-01T00:00:00-0800"),
-  accomplishments: ["TODO"],
+  accomplishments: [
+    "Wrote and managed software to control the DNS and Load Balancer fleer at AWS and Amazon",
+    "Wrote and maintained services to enable DNS self-service for internal AWS customers",
+    "Improved observability for the global DNS fleet",
+  ],
 };
 
 export const allJobs = [opsCentral, dope, counsyl, amazon];
