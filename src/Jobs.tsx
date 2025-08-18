@@ -3,15 +3,11 @@ import JobDisplay from "./JobDisplay";
 
 const Jobs = (props: { jobs: Job[] }) => {
   const { jobs } = props;
-  return (
-    <div className="ml-[5%]">
-      {jobs.map((j) => (
-        <div className="mt-4" key={j.startDate.toISOString()}>
-          <JobDisplay job={j} />
-        </div>
-      ))}
+  return jobs.map((j) => (
+    <div className="mt-4" key={j.startDate.toISOString()}>
+      <JobDisplay job={j} />
     </div>
-  );
+  ));
 };
 
 export default Jobs;

@@ -10,10 +10,12 @@ const Resume = () => {
       <hr className="my-2 shadow-2xl text-slate-500" />
       <Address />
       <div className="font-semibold mb-1">Experience</div>
-      <Jobs jobs={allJobs} />
-      <div className="my-2 text-xs italic">
-        Information about jobs further in the past will be furnished upon
-        request
+      <div className="ml-[5%]">
+        <Jobs jobs={allJobs} />
+        <div className="my-2 text-xs italic">
+          Information about jobs further in the past will be furnished upon
+          request
+        </div>
       </div>
       <hr className="my-2 shadow-2xl text-slate-500" />
       <div className="font-semibold my-2">Skills/Languages</div>
