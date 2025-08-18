@@ -11,7 +11,7 @@ export interface Job {
 
 const opsCentral: Job = {
   title: "Principal Software developer",
-  company: "Oracle Cloud Infrastructure",
+  company: "OCI",
   team: "Ops Central",
   location: "Seattle, WA",
   description:
@@ -26,17 +26,36 @@ const opsCentral: Job = {
 
 const dope: Job = {
   title: "Principal Software developer",
-  company: "Oracle Cloud Infrastructure",
+  company: "OCI",
   team: "DevOps Portal Experience",
   location: "Seattle, WA",
   description:
     "Built the DevOps Portal Experience from scratch with another developer, and then operated it with the team we grew. The portal (DOPE) is the center for all ops, deployments, and day-to-day management of the OCI cloud for internal Oracle employees.",
-  startDate: new Date("2018-06-01T00:00:00-0800"),
+  startDate: new Date("2016-05-01T00:00:00-0800"),
+  endDate: new Date("2024-04-01T00:00:00-0800"),
   accomplishments: [
-    "Built the infrastructure and most of the UI from scratch. This included the React app, a Java backend, and an HAProxy instance that scaled to dozens of services in hundreds of regions, at thousands of RPS.",
+    "Built the infrastructure and large parts of the UI from scratch",
     "Built the canary to monitor DOPE's infrastucture and network connectivity",
     "Architected and built most of the solution that allowed DOPE to scale seamlessly as OCI built dozens of new regions",
     "Published two OCI blog posts about the canary we architected and built",
+    "Helped design the eventual federation of all webapps",
+  ],
+};
+
+const counsyl: Job = {
+  title: "Senior Software developer",
+  company: "Counsyl",
+  team: "Platform",
+  location: "San Francisco, CA",
+  description: "bean",
+  startDate: new Date("2014-09-01T00:00:00-0800"),
+  endDate: new Date("2016-04-01T00:00:00-0800"),
+  accomplishments: [
+    "Built the infrastructure and large parts of the UI from scratch",
+    "Built the canary to monitor DOPE's infrastucture and network connectivity",
+    "Architected and built most of the solution that allowed DOPE to scale seamlessly as OCI built dozens of new regions",
+    "Published two OCI blog posts about the canary we architected and built",
+    "Helped design the eventual federation of all webapps",
   ],
 };
 

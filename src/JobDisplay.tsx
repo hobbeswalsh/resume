@@ -1,5 +1,4 @@
 import type { Job } from "./job";
-import { RiArrowRightSFill } from "@remixicon/react";
 
 const formatDate = (d: Date) =>
   d.toLocaleDateString("en-US", { month: "2-digit", year: "numeric" });
@@ -22,12 +21,11 @@ const JobDisplay = (props: { job: Job }) => {
           {job.endDate ? formatDate(job.endDate) : "present"}
         </div>
       </div>
-      <div className="max-w-[80%] my-1">{job.description}</div>
-      <div className="text-xs font-semibold my-1">Major accomplishments</div>
-      <ul className="ml-[20px]">
+      <div className="max-w-[80%] my-1 text-sm">{job.description}</div>
+      <div className="text-md my-1">Major accomplishments</div>
+      <ul className="ml-[20px] text-sm list-disc">
         {job.accomplishments.map((win) => (
           <div className="flex items-center" key={win}>
-            <RiArrowRightSFill size={16} />
             <li key={win}>{win}</li>
           </div>
         ))}

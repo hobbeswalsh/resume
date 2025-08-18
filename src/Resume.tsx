@@ -7,9 +7,9 @@ const Resume = () => {
   return (
     <div className="p-4">
       <ResumeHeader />
-      <hr className="my-2 shadow-2xl text-slate-500 border-double" />
+      <hr className="my-2 shadow-2xl text-slate-500" />
       <Address />
-      <div className="font-semibold mb-1 text-gray-500">Experience</div>
+      <div className="font-semibold mb-1">Experience</div>
       <Jobs jobs={allJobs} />
     </div>
   );
