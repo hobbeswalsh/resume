@@ -47,16 +47,26 @@ const counsyl: Job = {
   company: "Counsyl",
   team: "Platform",
   location: "San Francisco, CA",
-  description: "bean",
+  description:
+    "Managed all monitoring and infrastructure for a biotech startup",
   startDate: new Date("2014-09-01T00:00:00-0800"),
   endDate: new Date("2016-04-01T00:00:00-0800"),
   accomplishments: [
-    "Built the infrastructure and large parts of the UI from scratch",
-    "Built the canary to monitor DOPE's infrastucture and network connectivity",
-    "Architected and built most of the solution that allowed DOPE to scale seamlessly as OCI built dozens of new regions",
-    "Published two OCI blog posts about the canary we architected and built",
-    "Helped design the eventual federation of all webapps",
+    "Implemented multiple control/data planes for the company: load balancing, monitoring, DNS",
+    "Modernized the puppet installation for the company",
+    "Integrated some Hashicorp tools (Terraform, Vault, Consul) to automate deployments and rollbacks across the company",
   ],
 };
 
-export const allJobs = [opsCentral, dope, counsyl];
+const amazon: Job = {
+  title: "Software developer (SDE2)",
+  company: "Amazon",
+  team: "DNS/L7",
+  location: "Seattle, WA",
+  description: "Managed all production DNS and Load Balancing infrastructure",
+  startDate: new Date("2011-01-01T00:00:00-0800"),
+  endDate: new Date("2014-08-01T00:00:00-0800"),
+  accomplishments: ["TODO"],
+};
+
+export const allJobs = [opsCentral, dope, counsyl, amazon];
