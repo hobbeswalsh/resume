@@ -59,4 +59,4 @@ const counsyl: Job = {
   ],
 };
 
-export const allJobs = [opsCentral, dope];
+export const allJobs = [opsCentral, dope, counsyl];
