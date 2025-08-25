@@ -1,5 +1,6 @@
 export interface Job {
   title: string;
+  className?: string;
   company: string;
   team: string;
   location: string;
@@ -12,11 +13,13 @@ export interface Job {
 const opsCentral: Job = {
   title: "Principal Software developer",
   company: "OCI",
+  className: 'text-sky-500',
   team: "Ops Central",
   location: "Seattle, WA",
   description:
     "Worked on the 'Ops Central' team to standardize and unify all operations at OCI. Responsibilities included spearheading programs to get other teams to onboard to standardized observability and service catalog, as well as building out the UI elements they would eventually use, and run interviews them about common use cases to collect feedback.",
   startDate: new Date("2024-04-01T00:00:00-0800"),
+  endDate: new Date("2025-08-15T00:00:00-0800"),
   accomplishments: [
     "Ran program to migrate users from existing tools to Ops Central UIs",
     "Contributed to basic framework of app, including deployment strategy, basic layout/look-and-feel/keyboard navigation",
@@ -27,6 +30,7 @@ const opsCentral: Job = {
 const dope: Job = {
   title: "Principal Software developer",
   company: "OCI",
+  className: 'text-emerald-500',
   team: "DevOps Portal Experience",
   location: "Seattle, WA",
   description:
@@ -37,13 +41,14 @@ const dope: Job = {
     "Built the infrastructure and large parts of the UI from scratch",
     "Built the canary to monitor DOPE's infrastucture and network connectivity",
     "Architected and built most of the solution that allowed DOPE to scale seamlessly as OCI built dozens of new regions",
-    "Published two OCI blog posts about the canary we architected and built",
+    "Published two OCI blog posts explaining the canary we architected and built",
     "Helped design the eventual federation of all webapps",
   ],
 };
 
 const counsyl: Job = {
   title: "Senior Software developer",
+  className: 'text-orange-500',
   company: "Counsyl",
   team: "Platform",
   location: "San Francisco, CA",
@@ -60,6 +65,7 @@ const counsyl: Job = {
 
 const amazon: Job = {
   title: "Software developer (SDE2)",
+  className: 'text-rose-500',
   company: "Amazon",
   team: "DNS/L7",
   location: "Seattle, WA",
