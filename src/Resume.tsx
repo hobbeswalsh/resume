@@ -37,6 +37,16 @@ const Resume = () => {
       </div>
       <div className="font-semibold my-2">Education</div>
       <div>University of Chicago, Honors in Language and Literature, 2003</div>
+      <div className="font-semibold my-2">Publications</div>
+      <div>
+        Two blog posts for OCI:{" "}
+        <a
+          className="text-blue-500"
+          href="https://blogs.oracle.com/authors/robin-walsh"
+        >
+          Behind the Scenes with OCI
+        </a>
+      </div>
     </div>
   );
 };
