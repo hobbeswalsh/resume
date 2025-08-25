@@ -32,7 +32,9 @@ const Resume = () => {
       </div>
       <hr className="my-2 shadow-2xl text-slate-500" />
       <div className="font-semibold my-2">Skills/Languages</div>
-      <div>Typescript, Java, Go, Python, SQL, Terraform, Shell</div>
+      <div>
+        Typescript/React, Java, Go, Python, SQL, Terraform, Shell, Linux/*BSD
+      </div>
       <div className="font-semibold my-2">Education</div>
       <div>University of Chicago, Honors in Language and Literature, 2003</div>
     </div>

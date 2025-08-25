@@ -13,15 +13,15 @@ export interface Job {
 const opsCentral: Job = {
   title: "Principal Software developer",
   company: "OCI",
-  className: 'text-sky-500',
+  className: 'text-violet-500',
   team: "Ops Central",
   location: "Seattle, WA",
   description:
-    "Worked on the 'Ops Central' team to standardize and unify all operations at OCI. Responsibilities included spearheading programs to get other teams to onboard to standardized observability and service catalog, as well as building out the UI elements they would eventually use, and run interviews them about common use cases to collect feedback.",
+    "Worked on the \"Ops Central\" team to standardize and unify all operations at OCI. Responsibilities included spearheading programs to get other teams to onboard to standardized observability and service catalog, as well as building out the UI elements they would eventually use, and run interviews them about common use cases to collect feedback.",
   startDate: new Date("2024-04-01T00:00:00-0800"),
   endDate: new Date("2025-08-15T00:00:00-0800"),
   accomplishments: [
-    "Ran program to migrate users from existing tools to Ops Central UIs",
+    "Ran Oracle-wide program to migrate users from existing tools to Ops Central UIs",
     "Contributed to basic framework of app, including deployment strategy, basic layout/look-and-feel/keyboard navigation",
     "Contributed work for a handful of the fundamental tools, including Metrics and Logging",
   ],
@@ -34,7 +34,7 @@ const dope: Job = {
   team: "DevOps Portal Experience",
   location: "Seattle, WA",
   description:
-    "Built the DevOps Portal Experience from scratch with another developer, and then operated it with the team we grew. The portal (DOPE) is the center for all ops, deployments, and day-to-day management of the OCI cloud for internal Oracle employees.",
+    "Built the DevOps Portal Experience from scratch with another developer, and then operated it with the team we grew. The portal (DOPE) is the center for all ops, deployments, and day-to-day management of all OCI infrastructure across dozens of regions.",
   startDate: new Date("2016-05-01T00:00:00-0800"),
   endDate: new Date("2024-04-01T00:00:00-0800"),
   accomplishments: [
@@ -57,7 +57,7 @@ const counsyl: Job = {
   startDate: new Date("2014-09-01T00:00:00-0800"),
   endDate: new Date("2016-04-01T00:00:00-0800"),
   accomplishments: [
-    "Implemented multiple control/data planes for the company: load balancing, monitoring, DNS",
+    "Implemented multiple control/data planes for the company: load balancing, monitoring, DNS, secret management, service discovery",
     "Modernized the puppet installation for the company",
     "Integrated some Hashicorp tools (Terraform, Vault, Consul) to automate deployments and rollbacks across the company",
   ],
