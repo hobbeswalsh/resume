@@ -17,11 +17,12 @@ const opsCentral: Job = {
   team: "Ops Central",
   location: "Seattle, WA",
   description:
-    "Worked on the \"Ops Central\" team to standardize all operations at OCI. Responsibilities included: Leading a program to encourage service teams to onboard to OCI standardized observability, building out the UI elements for Ops Central, and interview users about common operational use cases to improve the UI.",
+    "Worked on the \"Ops Central\" team to standardize all operations at OCI. Ops Central is the main interface for incident response at OCI.",
   startDate: new Date("2024-04-01T00:00:00-0800"),
   endDate: new Date("2025-08-15T00:00:00-0800"),
   accomplishments: [
     "Ran Oracle-wide program to migrate users from existing tools to Ops Central UIs",
+    "Assisted OCI service teams in onboarding to standardized observability tooling which would enable them to view their services in Ops Central",
     "Interviewed engineers on other teams; identified and documented feature gaps",
     "Contributed to basic framework of app, including deployment strategy, basic layout/look-and-feel/keyboard navigation, and core UIs",
   ],
