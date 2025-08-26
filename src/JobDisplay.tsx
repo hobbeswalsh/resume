@@ -7,8 +7,8 @@ const JobDisplay = (props: { job: Job }) => {
   const { job } = props;
   return (
     <div className="text-sm">
-      <div className="flex justify-between">
-        <div className="flex gap-1">
+      <div className="flex justify-between flex-wrap">
+        <div className="flex flex-wrap gap-x-1">
           <div className={`font-semibold ${job.className}`}>
             {job.title} - {job.team}
           </div>

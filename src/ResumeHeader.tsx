@@ -1,8 +1,8 @@
-import { RiArticleLine, RiMailLine, RiSmartphoneLine } from "@remixicon/react";
+import { RiArticleLine, RiGithubLine, RiMailLine } from "@remixicon/react";
 
 const ResumeHeader = () => {
   return (
-    <div className="flex justify-between items-end">
+    <div className="flex justify-between items-end flex-wrap overflow-ellipsis">
       <div className="text-[24px] font-semibold">Robin Walsh</div>
       <div className="flex gap-2 text-xs">
         <div className="text-blue-500 flex gap-1 items-center">
@@ -14,8 +14,8 @@ const ResumeHeader = () => {
             className="flex text-blue-500 items-center"
             href="https://github.com/hobbeswalsh"
           >
-            <RiSmartphoneLine size={24} className="rotate-345" />
-            (503) 460-7475
+            <RiGithubLine size={24} className="rotate-345" />
+            @hobbeswalsh
           </a>
         </div>
         <div>
@@ -24,7 +24,7 @@ const ResumeHeader = () => {
             href="https://resume.walsh.omg.lol"
           >
             <RiArticleLine size={24} className="rotate-345" />
-            resume.walsh.omg.lol
+            resume
           </a>
         </div>
       </div>
