@@ -13,17 +13,17 @@ export interface Job {
 const opsCentral: Job = {
   title: "Principal Software Developer",
   company: "OCI",
-  className: 'text-violet-500',
+  className: "text-violet-500",
   team: "Ops Central",
   location: "Seattle, WA",
   description:
-    "Worked on the \"Ops Central\" team to standardize all operations at OCI. Ops Central is the main interface for incident response at OCI.",
+    'Worked on the "Ops Central" team to standardize all operations at OCI. Ops Central is the main interface for incident response at OCI. Worked across teams to coordinate onboarding to our observability platform.',
   startDate: new Date("2024-04-01T00:00:00-0800"),
   endDate: new Date("2025-08-15T00:00:00-0800"),
   accomplishments: [
     "Ran Oracle-wide program to migrate users from existing tools to Ops Central UIs",
-    "Assisted OCI service teams in onboarding to standardized observability tooling which would enable them to view their services in Ops Central",
-    "Interviewed engineers on other teams; identified and documented feature gaps",
+    "Assisted OCI service teams in onboarding to standardized observability tooling, enabling them to explore their services in Ops Central",
+    "Interviewed ICs and managers in other orgs; identified and documented feature requests/gaps",
     "Contributed to basic framework of app, including deployment strategy, basic layout/look-and-feel/keyboard navigation, and core UIs",
   ],
 };
@@ -31,7 +31,7 @@ const opsCentral: Job = {
 const dope: Job = {
   title: "Principal Software Developer",
   company: "OCI",
-  className: 'text-emerald-500',
+  className: "text-emerald-500",
   team: "DevOps Portal Experience",
   location: "Seattle, WA",
   description:
@@ -44,12 +44,13 @@ const dope: Job = {
     "Built the canary to monitor DOPE's health and network connectivity",
     "Published two OCI blog posts explaining the DOPE canary",
     "Helped design federation so internal OCI developers could use our platform",
+    "Worked across organizations to ensure that the DOPE platform worked for every engineer and manager in OCI",
   ],
 };
 
 const counsyl: Job = {
   title: "Senior Software Developer",
-  className: 'text-orange-500',
+  className: "text-orange-500",
   company: "Counsyl",
   team: "Platform",
   location: "San Francisco, CA",
@@ -59,6 +60,7 @@ const counsyl: Job = {
   endDate: new Date("2016-04-01T00:00:00-0800"),
   accomplishments: [
     "Implemented multiple control/data planes for the company: load balancing, monitoring, DNS, secret management, service discovery",
+    "Gathered requirements across disparate teams to ensure the Counsyl platform worked for everyone",
     "Integrated some Hashicorp tools (Terraform, Vault, Consul) to automate deployments for all internal teams",
     "Modernized the puppet installation for the company",
   ],
@@ -66,11 +68,12 @@ const counsyl: Job = {
 
 const amazon: Job = {
   title: "Software Developer (SDE2)",
-  className: 'text-rose-500',
+  className: "text-rose-500",
   company: "Amazon",
   team: "DNS/L7",
   location: "Seattle, WA",
-  description: "Managed production DNS and Load Balancing infrastructure for Amazon",
+  description:
+    "Managed production DNS and Load Balancing infrastructure for Amazon",
   startDate: new Date("2011-01-01T00:00:00-0800"),
   endDate: new Date("2014-08-01T00:00:00-0800"),
   accomplishments: [

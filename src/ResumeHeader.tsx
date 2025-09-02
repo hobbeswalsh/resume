@@ -21,10 +21,10 @@ const ResumeHeader = () => {
         <div>
           <a
             className="flex text-blue-500 items-center"
-            href="https://resume.walsh.omg.lol"
+            href="https://cv.walsh.omg.lol"
           >
             <RiArticleLine size={24} className="rotate-345" />
-            resume
+            CV
           </a>
         </div>
       </div>
