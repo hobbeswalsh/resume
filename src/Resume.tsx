@@ -2,6 +2,7 @@ import Address from "./Address";
 import ResumeHeader from "./ResumeHeader";
 import Jobs from "./Jobs";
 import { allJobs } from "./job";
+import ProfessionalSummary from "./ProfessionalSummary";
 
 const Resume = () => {
   return (
@@ -9,12 +10,12 @@ const Resume = () => {
       <ResumeHeader />
       <hr className="my-2 shadow-2xl text-slate-500" />
       <Address />
-      <div className="font-semibold mb-1">Experience</div>
+      <ProfessionalSummary />
+      <div className="font-semibold">Experience</div>
       <div className="ml-[5%]">
         <Jobs jobs={allJobs} />
         <div className="mb-2 mt-8 text-xs">
-          Further information about employment prior to 2011 will be furnished
-          upon request
+          Additional information available upon request.
         </div>
         <div className="text-xs flex flex-col gap-1">
           <div>
@@ -34,9 +35,17 @@ const Resume = () => {
         </div>
       </div>
       <hr className="my-2 shadow-2xl text-slate-500" />
-      <div className="font-semibold my-2">Skills/Languages</div>
+      <div className="font-semibold my-2">Technical skills</div>
       <div className="ml-[5%]">
-        Typescript/React, Java, Go, Python, SQL, Terraform, Shell, Linux/*BSD
+        Programming languages: Typescript/Javascript, Java, Go, Python, SQL,
+        Shell
+      </div>
+      <div className="ml-[5%]">
+        Platforms: Oracle Cloud Infrastructure (OCI) Amazon Web Services (AWS),
+        Linux/*BSD
+      </div>
+      <div className="ml-[5%]">
+        Tools & Frameworks: React, Terraform, Docker, Puppet, Vault, Consul
       </div>
       <div className="font-semibold my-2">Education</div>
       <div className="ml-[5%]">
@@ -44,13 +53,22 @@ const Resume = () => {
       </div>
       <div className="font-semibold my-2">Publications</div>
       <div className="ml-[5%]">
-        Two blog posts for OCI:{" "}
-        <a
-          className="text-blue-500"
-          href="https://blogs.oracle.com/authors/robin-walsh"
-        >
-          Behind the Scenes with OCI
-        </a>
+        <div>
+          <a
+            className="text-blue-500"
+            href="https://blogs.oracle.com/cloud-infrastructure/post/behind-the-scenes-one-ui-to-rule-all-oci-devops"
+          >
+            Behind the Scenes: One UI to Rule All OCI DevOps
+          </a>
+        </div>
+        <div>
+          <a
+            className="text-blue-500"
+            href="https://blogs.oracle.com/cloud-infrastructure/post/behind-the-scenes-ocis-canary-devops-monitoring"
+          >
+            Behind the Scenes: OCI's Thousand-Eyed Canary for DevOps Monitoring
+          </a>
+        </div>
       </div>
     </div>
   );

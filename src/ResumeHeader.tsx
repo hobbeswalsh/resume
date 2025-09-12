@@ -1,4 +1,4 @@
-import { RiArticleLine, RiGithubLine, RiMailLine } from "@remixicon/react";
+import { RiGithubLine, RiMailLine, RiPhoneLine } from "@remixicon/react";
 
 const ResumeHeader = () => {
   return (
@@ -9,22 +9,17 @@ const ResumeHeader = () => {
           <RiMailLine className="rotate-345" size={19} />
           <a href="mailto:robin.walsh@hey.com">robin.walsh@hey.com</a>
         </div>
-        <div>
-          <a
-            className="flex text-blue-500 items-center"
-            href="https://github.com/hobbeswalsh"
-          >
-            <RiGithubLine size={24} className="rotate-345" />
-            @hobbeswalsh
-          </a>
+        <div className="text-blue-500 print:flex gap-1 items-center hidden print:visible">
+          <RiPhoneLine className="rotate-345" size={19} />
+          (503) 460-7475
         </div>
         <div>
           <a
-            className="flex text-blue-500 items-center"
-            href="https://cv.walsh.omg.lol"
+            className="flex text-blue-500 items-center print:hidden"
+            href="https://github.com/hobbeswalsh"
           >
-            <RiArticleLine size={24} className="rotate-345" />
-            CV
+            <RiGithubLine size={24} className="rotate-345" />
+            github.com/hobbeswalsh
           </a>
         </div>
       </div>
