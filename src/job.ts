@@ -39,7 +39,7 @@ const dope: Job = {
   startDate: new Date("2016-05-01T00:00:00-0800"),
   endDate: new Date("2024-04-01T00:00:00-0800"),
   accomplishments: [
-    "Built the infrastructure and large parts of the UI from scratch",
+    "Built the DevOps Portal infrastructure and large parts of the UI from scratch",
     "Architected and built the network proxy that allowed DOPE to scale seamlessly as OCI built dozens of new regions",
     "Built the canary to monitor DOPE's health and network connectivity",
     "Published two OCI blog posts explaining the DOPE canary",
