@@ -61,8 +61,8 @@ const counsyl: Job = {
   endDate: new Date("2016-04-01T00:00:00-0800"),
   accomplishments: [
     "Implemented multiple control/data planes for the company: load balancing, monitoring, DNS, secret management, service discovery",
-    "Gathered requirements across disparate teams to ensure the Counsyl platform worked for everyone",
-    "Integrated some Hashicorp tools (Terraform, Vault, Consul) to automate deployments for all internal teams",
+    "Integrated Hashicorp tools (Terraform, Vault, Consul) to automate deployments for all internal teams",
+    "Built and maintained common tools and libraries so all internal teams could onboard to the Counsyl platform",
     "Modernized the puppet installation for the company",
   ],
 };
