@@ -17,7 +17,7 @@ const opsCentral: Job = {
   team: "Ops Central",
   location: "Seattle, WA",
   description:
-    'Worked on the "Ops Central" team to standardize all operations at OCI. Ops Central is the main interface for incident response at OCI. Worked across teams to coordinate onboarding to our observability platform.',
+    'Helped found the "Ops Central" team to standardize all operations at OCI. Ops Central is the main interface for incident response at OCI. Worked across teams to coordinate onboarding to our observability platform.',
   startDate: new Date("2024-04-01T00:00:00-0800"),
   endDate: new Date("2025-08-15T00:00:00-0800"),
   accomplishments: [
@@ -35,7 +35,7 @@ const dope: Job = {
   team: "DevOps Portal Experience",
   location: "Seattle, WA",
   description:
-    "Built the DevOps Portal Experience (DOPE) from scratch with another developer, and then expanded and operated it as OCI scaled from 2 to over 50 regions. DOPE is the central UI for all ops, deployments, and day-to-day management of OCI's global infrastructure.",
+    "Built the DevOps Portal Experience (DOPE) from scratch with another developer, and then expanded and operated it as OCI scaled from 2 to >50 regions. DOPE is the central UI for all ops, deployments, and day-to-day management of OCI's global infrastructure.",
   startDate: new Date("2016-05-01T00:00:00-0800"),
   endDate: new Date("2024-04-01T00:00:00-0800"),
   accomplishments: [
