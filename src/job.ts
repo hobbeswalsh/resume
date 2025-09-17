@@ -42,6 +42,7 @@ const dope: Job = {
     "Built the DevOps Portal infrastructure and large parts of the UI from scratch",
     "Architected and built the network proxy that allowed DOPE to scale seamlessly as OCI built dozens of new regions",
     "Built the canary to monitor DOPE's health and network connectivity",
+    "Built and maintained the metrics library for internal OCI teams to submit service metrics",
     "Published two OCI blog posts explaining the DOPE canary",
     "Helped design federation so internal OCI developers could use our platform",
     "Worked across organizations to ensure that the DOPE platform worked for every engineer and manager in OCI",
