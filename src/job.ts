@@ -39,7 +39,7 @@ const dope: Job = {
   startDate: new Date("2016-05-01T00:00:00-0800"),
   endDate: new Date("2024-04-01T00:00:00-0800"),
   accomplishments: [
-    "Built the DevOps Portal infrastructure and large parts of the UI from scratch",
+    "Built the DevOps Portal infrastructure and large parts of the UI from scratch, then participated in the operational on-call rotation",
     "Architected and built the network proxy and canary that allowed DOPE to scale seamlessly as OCI grew",
     "Architected and maintained OCI's Grafana instance and MySQL backend",
     "Built and maintained the metrics library for internal OCI teams to submit service metrics",
@@ -64,6 +64,7 @@ const counsyl: Job = {
     "Integrated Hashicorp tools (Terraform, Vault, Consul) to automate deployments for all internal teams",
     "Built and maintained common tools and libraries so all internal teams could onboard to the Counsyl platform",
     "Modernized the puppet installation for the company",
+    "Participated in the on-call rotation for the platform team",
   ],
 };
 
@@ -81,6 +82,7 @@ const amazon: Job = {
     "Wrote and managed software to manage the DNS and Load Balancer fleet at AWS and Amazon",
     "Wrote and maintained services to enable DNS self-service for internal AWS customers",
     "Improved observability for the global DNS fleet",
+    "Participated in the on-call rotation for the DNS and Load Balancer fleets",
   ],
 };
 
