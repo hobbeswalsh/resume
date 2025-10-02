@@ -21,10 +21,11 @@ const opsCentral: Job = {
   startDate: new Date("2024-04-01T00:00:00-0800"),
   endDate: new Date("2025-08-15T00:00:00-0800"),
   accomplishments: [
-    "Ran Oracle-wide program to migrate users from existing tools to Ops Central UIs",
-    "Assisted OCI service teams in onboarding to standardized observability tooling, enabling them to explore their services in Ops Central",
-    "Interviewed ICs and managers in other orgs; identified and documented feature requests/gaps",
+    "Bootstrapped Ops Central, a Typescript/React/Vite cross-platform (Electron and web) app",
     "Contributed to basic framework of app, including deployment strategy, basic layout/look-and-feel/keyboard navigation, and core UIs",
+    "Assisted OCI service teams in onboarding to standardized observability tooling, enabling them to explore their services in Ops Central",
+    "Ran Oracle-wide program to migrate users from existing tools to Ops Central UIs",
+    "Interviewed ICs and managers in other orgs; identified and documented feature requests/gaps",
   ],
 };
 
@@ -39,10 +40,10 @@ const dope: Job = {
   startDate: new Date("2016-05-01T00:00:00-0800"),
   endDate: new Date("2024-04-01T00:00:00-0800"),
   accomplishments: [
-    "Built the DevOps Portal infrastructure and large parts of the UI from scratch, then participated in the operational on-call rotation",
-    "Architected and built the network proxy and canary that allowed DOPE to scale seamlessly as OCI grew",
+    "Built the DevOps Portal infrastructure and large parts of the UI (Typescript/React/Webpack) from scratch, then participated in the operational on-call rotation",
+    "Architected and built the network proxy (HAProxy), canary (Java), and user settings service (Java) that allowed DOPE to scale seamlessly as OCI grew",
     "Architected and maintained OCI's Grafana instance and MySQL backend",
-    "Built and maintained the metrics library for internal OCI teams to submit service metrics",
+    "Built and maintained the metrics library (Python) for internal OCI teams to submit service metrics",
     "Published two OCI blog posts explaining the DOPE canary",
     "Helped design federation so internal OCI developers could use our platform",
     "Worked across organizations to ensure that the DOPE platform worked for every engineer and manager in OCI",
