@@ -9,7 +9,7 @@ const ProfessionalSummary = () => {
         Built and maintained mission-critical platforms at Oracle and Amazon
         serving internal engineers and external customers. Expertise in
         full-stack development, cloud infrastructure, and cross-organizational
-        technical leadership. Typescript|React|Golang|Java|Dropwizard|Python|SQL|Shell -- something of a
+        technical leadership. Typescript/React/Golang/Java/Dropwizard/Python/SQL/Shell -- something of a
         polyglot.
       </div>
     </div>
