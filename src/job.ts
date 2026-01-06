@@ -10,6 +10,16 @@ export interface Job {
   accomplishments: string[];
 }
 
+const oumi: Job = {
+  title: "Platform Engineer",
+  company: "Oumi",
+  team: "Platform",
+  location: "Seattle, WA",
+  startDate: new Date("2026-01-05T00:00:00-0800"),
+  description: "Helping to make Oumi as awesome as possible",
+  accomplishments: ["So far, just filling out forms. More to come!"],
+};
+
 const opsCentral: Job = {
   title: "Principal Software Developer",
   company: "OCI",
@@ -87,4 +97,4 @@ const amazon: Job = {
   ],
 };
 
-export const allJobs = [opsCentral, dope, counsyl, amazon];
+export const allJobs = [oumi, opsCentral, dope, counsyl, amazon];
